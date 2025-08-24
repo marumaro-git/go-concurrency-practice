@@ -44,7 +44,7 @@ func TimerWithTimeoutExample() {
 			fmt.Printf("Tick %d\n", counter)
 		case <-processingTimeout:
 			fmt.Println("Processing timeout reached, stopping timer with timeout example.")
-			// return
+			return
 		case <-globalTimeout:
 			fmt.Println("Timeout reached, stopping timer with timeout example.")
 			return

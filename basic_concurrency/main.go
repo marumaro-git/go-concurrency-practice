@@ -22,4 +22,10 @@ func main() {
 	fmt.Println("Once Sample:")
 	service.OnceSample()
 	fmt.Println()
+
+	// timer example
+	fmt.Println("Timer Example:")
+	service.TimerExample()
+	service.TimerWithTimeoutExample()
+	fmt.Println()
 }
