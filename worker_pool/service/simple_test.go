@@ -69,7 +69,7 @@ func TestRun(t *testing.T) {
 				}
 				done <- true
 			}()
-			Run()
+			SimpleWorkerRun()
 		}()
 
 		select {
@@ -82,7 +82,7 @@ func TestRun(t *testing.T) {
 
 	t.Run("concurrency effectiveness", func(t *testing.T) {
 		startTime := time.Now()
-		Run()
+		SimpleWorkerRun()
 		elapsed := time.Since(startTime)
 
 		if elapsed > 3*time.Second {

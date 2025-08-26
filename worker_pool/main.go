@@ -9,6 +9,12 @@ func main() {
 
 	// worker pool example
 	fmt.Println("Starting worker pool example...")
-	service.Run()
+	service.SimpleWorkerRun()
 	fmt.Println("Worker pool example finished.")
+
+	// pond example
+	fmt.Println("Starting pond example...")
+	service.PondRun()
+	fmt.Println("Pond example finished.")
+
 }
