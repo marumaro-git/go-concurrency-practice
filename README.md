@@ -29,3 +29,4 @@ Go言語は、並行処理を簡潔かつ効率的に実現するための機能
 ](https://zenn.dev/hsaki/books/golang-concurrency)
 - [Go by Example: Worker Pools](https://oohira.github.io/gobyexample-jp/worker-pools.html)
 - [pond](https://github.com/alitto/pond)
+- [手を動かしながら並行処理を学ぼう](https://zenn.dev/knowledgework/articles/9b9abd12e7c621)
